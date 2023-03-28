@@ -4,42 +4,39 @@
 
 <template>
 
-  <header>
-    <ul class="left-nav">
-      <li>Home</li>
-      <li>Products</li>
-    </ul>
+<header>
+        <div class="wrapper wrap">
+            <ul class="left-nav">
+                <li>Home</li>
+                <li>Products</li>
+            </ul>
+    
+            <div class="logo">
+                <img src="./assets/logo.svg" alt="Jewelry Logo" title="Jewelry Logo" />
+            </div>
+    
+            <ul class="right-nav">
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </header>
 
-    <img class="logo" src="" />
+    <section class="hero">
+        <div class="wrapper wrap">
+            <div class="image">
+                <img src="./assets/banner-image.jpg" alt="Jewelry">
+            </div>
 
-    <ul class="right-nav">
-      <li>Services</li>
-      <li>Contacts</li>
-    </ul>
-  </header>
+            <div class="content">
+                <h1>Premium Handmade Jewellry On Every Occassion</h1>
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying.</p>
+                <a href="#" class="btn-primary">
+                    <p>Find Out More</p>
+                </a>
+            </div>
+
+        </div>
+    </section>
 
 </template>
-
-<style>
-
-  body {
-    margin: 0px;
-    padding: 0px;
-  }
-
-  header {
-    background-color: #111111;
-    height: 70px;
-    display: flex;
-  }
-
-  ul.left-nav {}
-  ul.left-nav li {}
-
-  img.logo {}
-
-  ul.right-nav {}
-  ul.right-nav li { }
-
-
-</style>
