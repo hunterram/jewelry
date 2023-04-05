@@ -13,7 +13,7 @@
             </ul>
     
             <div class="logo">
-                <img src="./images/logo.svg" alt="Jewelry Logo" title="Jewelry Logo" />
+                <img src="./assets/logo.svg" alt="Jewelry Logo" title="Jewelry Logo" />
             </div>
     
             <ul class="right-nav">
@@ -27,7 +27,7 @@
     <section class="hero">
         <div class="wrapper wrap">
             <div class="image">
-                <img src="./images/banner-image.jpg" alt="Jewelry">
+                <img src="./assets/banner-image.jpg" alt="Jewelry">
             </div>
 
             <div class="content">
@@ -53,42 +53,42 @@
             <ul class="categories">
                 <li>
                     <div class="image">
-                        <img src="./images/rings.svg" />
+                        <img src="./assets/rings.svg" />
                     </div>
                     <p>Rings</p>
                 </li>
 
                 <li>
                     <div class="image">
-                        <img src="./images/bracelets.png" />
+                        <img src="./assets/bracelets.png" />
                     </div>
                     <p>Bracelets</p>
                 </li>
 
                 <li>
                     <div class="image">
-                        <img src="./images/necklace.png" />
+                        <img src="./assets/necklace.png" />
                     </div>
                     <p>Necklace</p>
                 </li>
 
                 <li>
                     <div class="image">
-                        <img src="./images/earrings.png" />
+                        <img src="./assets/earrings.png" />
                     </div>
                     <p>Earrings</p>
                 </li>
 
                 <li>
                     <div class="image">
-                        <img src="./images/tiaras.png" />
+                        <img src="./assets/tiaras.png" />
                     </div>
                     <p>Tiaras</p>
                 </li>
 
                 <li>
                     <div class="image">
-                        <img src="./images/watches.png" />
+                        <img src="./assets/watches.png" />
                     </div>
                     <p>Watchers</p>
                 </li>

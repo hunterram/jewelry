@@ -204,7 +204,7 @@ div.offers div {
 }
 div.offers div.collection {
     flex: 1;
-    background-image: url(./images/collection-image.jpg);    
+    background-image: url(./../assets/collection-image.jpg);    
 }
 
 div.offers div.collection div.content {
@@ -223,7 +223,7 @@ div.offers div.collection div.content h2 {
 
 div.offers div.off {
     flex: 1;
-    background-image: url(./images/discount-image.jpg);
+    background-image: url(./../assets/discount-image.jpg);
     background-position: right;
     display: flex;
     flex-direction: column;
