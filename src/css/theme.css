@@ -125,3 +125,141 @@ section.hero div.content p {
     margin: 12px 0;
     color: white; line-height: 24pt;
 }
+
+/* Exclusive Products */
+section.exclusive {
+    background-color: #403732;
+    padding: 35px 0;
+    padding-top: 65px;
+}
+section.exclusive > div.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+div.total-products {
+    text-align: center;
+}
+div.total-products h3 {
+    font-size: 24pt;
+    font-weight: 400;
+    color: white;
+}
+div.total-products h4 {
+    font-size: 16pt;
+    font-weight: normal;
+    color: white;
+    letter-spacing: .25px;
+}
+
+/* Exclusive Products -- Categories */
+
+ul.categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px auto;
+    width: 980px;
+}
+ul.categories li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul.categories li div.image {
+    width: 65px;
+    height: 65px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul.categories li div.image img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+ul.categories li p {
+    color: white;
+    font-size: 12pt;
+    letter-spacing: 0.15px;
+    line-height: 32pt;
+}
+
+/* Exclusive Products -- Offers */
+
+div.offers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 690px;
+}
+div.offers div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.offers div.collection {
+    flex: 1;
+    background-image: url(./images/collection-image.jpg);    
+}
+
+div.offers div.collection div.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40vh;
+    margin-left: 85px;
+}
+div.offers div.collection div.content h2 {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 50pt;
+    line-height: 54pt;
+}
+
+div.offers div.off {
+    flex: 1;
+    background-image: url(./images/discount-image.jpg);
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.offers div.off div.content {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin-left: 50px;
+}
+div.offers div.off div.content h3 {
+    color: black;
+    font-size: 52pt;
+    font-weight: 300;
+    line-height: 53pt;
+    text-transform: uppercase;
+    /* text-align: center; */
+} 
+div.offers div.off div.content p {
+    color: black;
+    font-size: 11pt;
+    font-weight: 500;
+    line-height: 16pt;
+} 
+div.offers div.off div.content a {
+    font-size: 12pt;
+    color: #d7241e;
+    text-decoration: none;
+    line-height: 24pt;
+} 
+
+section.products {
+    background-color: #FCF7F3;
+    padding: 35px 0;
+    height: 800px;
+    margin-top: -250px;
+}
